@@ -1,0 +1,227 @@
+@import url("./base.css");
+
+/* 🔹 Overall Page */
+.restaurant {
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding: 20px 40px;
+  color: #222;
+}
+/* 🔹 Breadcrumb */
+.restaurant__breadcrumb {
+  font-size: 14px;
+  color: #7e808c;
+  margin: 10px 0 20px 0;
+}
+
+/* 🔹 Restaurant Title */
+.restaurant__info h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* 🔹 Tabs */
+.restaurant__services {
+  display: flex;
+  gap: 25px;
+  border-bottom: 1px solid #e9e9eb;
+  margin-bottom: 25px;
+}
+
+.restaurant__services p {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.restaurant__services p:first-child {
+  border-bottom: 3px solid #fc8019; /* Orange underline */
+  color: #fc8019;
+}
+
+/* 🔹 Main Info Wrapper */
+.restaurantInfo {
+  display: flex;
+  justify-content: center;
+}
+
+.restaurantInfoContainer {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+/* 🔸 Alert Box */
+.restaurantInfoContainer .primary {
+  background: #fff5f0;
+  color: #e46d1f;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 14px 18px;
+  text-align: center;
+  border-bottom: 1px solid #f0e0dc;
+}
+
+/* 🔸 Secondary Box */
+.restaurantInfoContainer .secondary {
+  padding: 18px 22px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #282c3f;
+}
+
+/* Rating + Cost */
+.secondary .rating-cost {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* Cuisines */
+.secondary .cuisines {
+  color: #fc8019;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 6px 0;
+}
+
+/* Outlet */
+.secondary .outlet {
+  color: #686b78;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.secondary .outlet strong {
+  color: #3d4152;
+}
+
+/* Closed */
+.secondary .closed-status {
+  font-weight: 600;
+  color: #3d4152;
+  margin-top: 6px;
+}
+
+
+/* 🔹 Menu Categories */
+.restaurant__menu-category {
+  margin-top: 30px;
+}
+
+.foodCat {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* 🔹 Menu Items */
+.restaurant__menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.restaurant__menu-item-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.restaurant__menu-item-info {
+  flex: 1;
+  padding-right: 15px;
+}
+
+.restaurant__menu-item-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.restaurant__menu-item-price {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 4px 0;
+}
+
+.restaurant__menu-item-desc {
+  font-size: 13px;
+  color: #666;
+}
+
+/* 🔹 Image + Buttons */
+.restaurant__menu-item-action {
+  width: 150px;
+  text-align: center;
+  position: relative;
+}
+
+.menu-img-wrapper {
+  position: relative;
+}
+
+.menu-img-wrapper img {
+  width: 150px;
+  height: 120px;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Add Button */
+.menu-add-btn {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 16px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.menu-add-btn:hover {
+  border-color: #e46d1f;
+  color: #e46d1f;
+}
+
+/* Qty Controls */
+.menu-qty-controls {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+
+.menu-qty-controls button {
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #e46d1f;
+}
+
+.menu-qty-controls span {
+  font-size: 14px;
+  font-weight: 600;
+}

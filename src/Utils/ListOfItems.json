@@ -1,0 +1,18 @@
+[
+  {
+    "url": "/",
+    "name": "Home"
+  },
+  {
+    "url": "/help",
+    "name": "Help"
+  },
+  {
+    "url": "/search",
+    "name": "Search"
+  },
+  {
+    "url": "/cart",
+    "name": "Cart"
+  }
+]

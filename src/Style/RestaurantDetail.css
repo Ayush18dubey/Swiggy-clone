@@ -1,0 +1,52 @@
+.restaurant-detail {
+  padding: 2rem;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 1rem;
+}
+
+.menu-info {
+  max-width: 70%;
+}
+
+.menu-info h4 {
+  margin: 0;
+}
+
+.menu-desc {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.menu-action {
+  text-align: center;
+}
+
+.menu-img {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.add-btn {
+  margin-top: 5px;
+  padding: 5px 15px;
+  background: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #ff6600;
+}
